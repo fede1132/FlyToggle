@@ -1,0 +1,39 @@
+Language: default # default = this, spanish = /plugins/FlyToggle/Spanish.yml
+Settings:
+  # Should the plugin disable the player fly when he quits?
+  Disable-Fly-On-Quit: false
+  # Permission to bypass the variable above.
+  # Set to blank ("") to disable.
+  Disable-Fly-On-Quit-Permission: ""
+
+Fly:
+  Permission: "Fly.Fly"
+  Fly-Enabled: "&a&lFly &8» &7Fly &aenabled&7."
+  Fly-Disabled: "&a&lFly &8» &7Fly &cdisabled&7."
+  No-Perms: "&a&lFly &8» &7Not enought permissions."
+  Other:
+    Permission: "Fly.Other"
+    Null-Target: "&a&lFly &8» &cCould not find player &6%target%&c."
+    By-Enabled: "&a&lFly &8» &7Fly for player &6%to% &aenabled&7."
+    To-Enabled: "&a&lFly &8» &7Fly &aenabled &7by &6%by%&7."
+    By-Disabled: "&a&lFly &8» &7Fly for player &6%to% &cdisabled&7."
+    To-Disabled: "&a&lFly &8» &7Fly &cdisabled &7by &6%by%&7."
+  Item:
+    Delay: 10 # In ticks, needed for NO-GLITCH
+    Recive-Message: "&a&lFly &8» You have recived the Fly Item!"
+    Permission: "Fly.Item.Use"
+    Give-Permission: "Fly.Item.Give"
+    Name: "&a&lFly Item"
+    ID: "FEATHER"
+    Invalid-Material: "&cThe material ID in the config is not valid!"
+    Lore:
+    - ''
+    - '&aFly item' # https://bit.ly/spigotmaterials
+    - '&7&oRight-Click to use'
+    - ''
+
+# FAQ
+#
+# Q: How do I reload the config?
+# A: The configs auto-reloads when you edit and save it!
+#

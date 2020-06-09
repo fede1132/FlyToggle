@@ -1,0 +1,11 @@
+name: FlyToggle
+version: ${project.version}
+main: com.gmail.fendt873.flytoggle.FlyToggle
+
+commands:
+  fly:
+    description: Fly command.
+    alias: [flytoggle, plane, flyon, flyoff, planeon, planeoff]
+  giveflyitem:
+    description: Gives the fly item.
+    alias: [gflyitem, flyitem]
