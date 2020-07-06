@@ -1,6 +1,7 @@
 package com.gmail.fendt873.flytoggle.util;
 
 import com.gmail.fendt873.flytoggle.FlyToggle;
+import com.google.common.base.Charsets;
 import net.md_5.bungee.api.ChatColor;
 
 import java.util.ArrayList;
@@ -30,6 +31,6 @@ public class Util {
     }
 
     public static String color(String s) {
-        return ChatColor.translateAlternateColorCodes('&', s);
+        return ChatColor.translateAlternateColorCodes('&', new String(s.getBytes(), Charsets.UTF_8));
     }
 }

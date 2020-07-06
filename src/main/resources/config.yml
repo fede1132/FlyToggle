@@ -17,7 +17,7 @@ Fly:
     By-Enabled: "&a&lFly &8» &7Fly for player &6%to% &aenabled&7."
     To-Enabled: "&a&lFly &8» &7Fly &aenabled &7by &6%by%&7."
     By-Disabled: "&a&lFly &8» &7Fly for player &6%to% &cdisabled&7."
-    To-Disabled: "&a&lFly &8» &7Fly &cdisabled &7by &6%by%&7."
+    To-Disabled: "&a&lFly &8» &7Fly &cdisabled &7by &6%by%&7"
   Item:
     Delay: 10 # In ticks, needed for NO-GLITCH
     Recive-Message: "&a&lFly &8» You have recived the Fly Item!"
@@ -27,10 +27,10 @@ Fly:
     ID: "FEATHER"
     Invalid-Material: "&cThe material ID in the config is not valid!"
     Lore:
-    - ''
-    - '&aFly item' # https://bit.ly/spigotmaterials
-    - '&7&oRight-Click to use'
-    - ''
+      - ''
+      - '&aFly item' # https://bit.ly/spigotmaterials
+      - '&7&oRight-Click to use'
+      - ''
 
 # FAQ
 #
